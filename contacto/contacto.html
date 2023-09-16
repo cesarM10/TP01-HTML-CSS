@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../miEstilo.css">
+    <link rel="stylesheet" href="./miEstiloContacto.css">
+    <link rel="shortcut icon" href="../sources/faviconNews.png" type="image/x-icon">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <a href="./inicio.html">
+            <img src="../sources/faviconNews.png" alt="icono Info" style="float: left; margin-top: -2rem;" >
+        </a>
+        
+        <h1 style="float: left; margin-left: 3rem; color:rgb(247, 244, 244);">Info Libertador</h1>
+            
+    </header> 
+    
+    <nav>
+            <div >
+                <ul>
+                    <li><a href="../inicio.html" title="Ir a la página principal">INICIO</a></li>
+                    <li><a href="../ayuda/ayuda.html" title="Ir a la página de ayuda">AYUDA</a></li>
+                    <li><a href="./contacto.html" title="Ir a la página de contacto">CONTACTO</a>    </li>
+                    <li><a href="../galeria/galeria.html" title="Ir a la página Galeria">GALERIA</a></li>
+                </ul>
+                
+                
+                
+            </div>
+    </nav>
+    <hr>
+
+    <section>
+        <form action="" method="POST">
+            <fieldset>
+
+          
+            <legend>FORMULARIO DE CONTACTO</legend>
+            <p>Los campos obligatorios se marcan con un <abbr title = "required">*</abbr>.</p>
+            <div>
+                <label for="nombre">Nombre:</label><input type="text" id="nombre" name="nombre"/>
+                <label for="nombre"><abbr title="required" aria-label="required">*</abbr></label>
+            </div>
+            <br>
+            <div>
+                <label>Apellido:</label><input type="text" id="apellido" name="apellido" />
+            </div>
+            <br>
+            <div>
+                <label>DNI</label><input type="number" id="dni" name="dni" />
+            </div>
+            <br>
+            <div>
+                <label>Sexo:</label>
+                <input type="radio" name="sexo" value="hombre" id="hombre" /> <label for="hombre">Hombre</label>
+                <input type="radio" name="sexo" value="mujer" id="mujer" /> <label for="mujer">Mujer</label>
+            </div>
+            <br>
+            <div>
+                <label>Código postal:</label><input type="number" id="codigoPostal" name="codigoPostal" /><a
+                    href="https://www.correoargentino.com.ar/formularios/cpa"> ¿Cómo conseguirlo?</a>
+            </div>
+            <br>
+            <div>
+                <label>Provincia:</label>
+                <select id="provincia" name="provincia">
+                    <option value="1" selected disabled>Seleccione</option>
+                    <option value="2">BUENOS AIRES</option>
+                    <option value="3">CATAMARCA</option>
+                    <option value="4">CHACO</option>
+                    <option value="5">CHUBUT</option>
+                    <option value="6">CORDOBA</option>
+                    <option value="7">CORRIENTES</option>
+                    <option value="8">ENTRE RIOS</option>
+                    <option value="9">FORMOSA</option>
+                    <option value="10">JUJUY</option>
+                    <option value="11">LA PAMPA</option>
+                    <option value="12">LA RIOJA</option>
+                    <option value="13">MENDOZA</option>
+                    <option value="14">MISIONES</option>
+                    <option value="15">NEUQUEN</option>
+                    <option value="16">RIO NEGRO</option>
+                    <option value="17">SALTA</option>
+                    <option value="18">SAN JUAN</option>
+                    <option value="19">SANTA CRUZ</option>
+                    <option value="20">SANTA FE</option>
+                    <option value="21">SANTIAGO DEL ESTERO</option>
+                    <option value="22">TIERRA DEL FUEGO</option>
+                    <option value="23">TUCUMAN</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Localidad:</label>
+                <select id="localidad" name="localidad">
+                    <option value="1" selected disabled>Seleccione </option>
+                    <option value="2">Abra Pampa</option>
+                    <option value="3">Aguas Calientes</option>
+                    <option value="4">Caimancito</option>
+                    <option value="5">Calilegua</option>
+                    <option value="6">El Aguilar</option>
+                    <option value="7">Aguas Calientes</option>
+                    <option value="8">El Carmen</option>
+                    <option value="9">El Talar</option>
+                    <option value="10">Fraile Pintado</option>
+                    <option value="11">Humahuaca</option>
+                    <option value="12">La Esperanza</option>
+                    <option value="13">La Mendieta</option>
+                    <option value="14">La Quiaca</option>
+                    <option value="15">Libertador General San Martín</option>
+                    <option value="16">Maimará</option>
+                    <option value="17">Monterrico</option>
+                    <option value="18">Palma Sola</option>
+                    <option value="19">Palpalá</option>
+                    <option value="20">Pampa Blanca</option>
+                    <option value="21">Perico</option>
+                    <option value="22">Puesto Viejo</option>
+                    <option value="23">San Antonio</option>
+                    <option value="24">San Pedro de Jujuy</option>
+                    <option value="25">San Salvador de Jujuy</option>
+                    <option value="26">Santa Clara</option>
+                    <option value="27">Tilcara</option>
+                    <option value="28">Yala</option>
+                    <option value="29">Yuto</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Barrio:</label><input type="text" id="barrio" name="barrio">
+                
+            </div>
+            <br>
+            <div>
+                <label for="ckbarrio">Agregar Barrio</label><input type="checkbox" id="ckbarrio" name="ckbarrio"
+                value="ckbarrio">
+            </div>
+            <br>
+            <div>
+                <label>Fecha de Nacimiento:</label><input type="date" id="fechaNacimiento"
+                name="fechaNacimiento" />
+            </div>
+            <br>
+            <div>
+                <label>Correo Electrónico:</label><input type="email" id="Email" name="Email" />
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </fieldset>
+        </form>
+    </section>
+
+    <aside>
+                <div>
+                    <h4>Publicidad</h4>
+                    <div>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="../sources/publicidad1.png" alt="" style="max-width: 90%; margin-left: 2rem;">
+                        </a>
+                    </div>
+        
+        
+                    <div>   
+                        
+                        <br><br><br>
+                        
+                        <ul>
+                            <li>Acerca de</li>
+                                <ul>
+                                    <li><a href="../sources/CV - Cesar Mercado.pdf" target="_blank">Cesar Mercado</a></li>
+                                </ul>
+                        </ul>
+                    </div>
+                </div>
+    </aside>
+    
+    
+        
+    <footer>
+        <div >
+            <br>
+            <a href="https://virtual.unju.edu.ar/course/view.php?id=520">UNJu Virtual <br></a>
+            <br>
+            <h5>Programación y Servicios Web &copy;</h5>
+            <br>
+            <h5>Cesar David Mercado</h5>
+            <br>
+        </div>
+    </footer>
+</body>
+</html>

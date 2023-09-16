@@ -1,0 +1,176 @@
+
+*{
+ /* margin: 0;
+  padding: 0;*/
+  box-sizing: border-box;   
+}
+
+
+/*
+.capa{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background: url("https://pbs.twimg.com/media/FiHEezAXEAoa_va?format=jpg&name=large");
+    background-repeat: no-repeat;
+}
+*/
+
+body{
+    background-image: linear-gradient(to left bottom, #ffffff, #dfdfdf, #bfbfbf, #a1a1a1, #838383);
+}
+header{
+    width: 100%;
+    padding: 4rem;
+    text-align: center;
+    /*background-image: radial-gradient(circle, #6e1687, #7a4a9a, #8a71a9, #9e95b3, #b9b9b9);*/
+    /*background-image: linear-gradient(to right bottom, #6e1687, #8214a3, #9611c1, #ab0adf, #bf00ff);*/
+    background-image: url("./sources/imgHeaderLGSM.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+nav{
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background-color: #39303b;
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    letter-spacing: 0.5rem;
+    margin-right: 1rem;
+}
+
+nav ul li a:hover, a:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+section{
+    
+    width: 80%;
+    float: left;    
+    display: inline-flex;
+    /*text-align: center;*/
+    height: 800px;
+}
+
+
+aside{
+    width: 20%;
+    float: right;
+    display: inline-flex;
+    height: 800px;
+    padding: 2rem;
+    background-color: rgb(255, 247, 247);
+    text-decoration: none;
+}
+/*
+.texto{
+    font-size: 1.5rem;
+}*/
+
+
+aside h2{
+    text-decoration: underline;
+}
+footer{
+    background-color: #051937;
+    float: left;
+    width: 100%;
+    
+    text-align: center;
+    color: white;
+    font-family: century gothic, arial;
+}
+h1{
+    color: #2c2c2c;
+    /*background-color: #d5d5d5;*/
+    /*letter-spacing: .5em;*/
+    text-shadow: 4px 4px 0px #2b2727, 7px 7px 0px rgba(0, 0, 0, 0.2);
+
+    
+        font-size: 4rem;
+        /*position: relative;*/
+        /*top: 90px;*/
+        text-align: center;
+        color: rgb(184, 191, 189);
+        font-family: century gotic, arial;
+        font-style: italic;
+        margin-top: -2.5rem;   
+}
+
+/* PRUEBAS DE CARDS */
+
+:root{
+    --card-color: (0, 0, 0, 0.516);
+    --card-header-color: rgba(0, 0, 0, 0.516);
+    --card-body-color: (0, 0, 0, 0.516);
+    --card-footer-color: (0, 0, 0, 0.516);
+ }
+ .card{
+     margin: 0 auto;
+     background: var(--card-color);
+     color:rgb(255, 255, 255);
+     width: 250px;
+     padding: 20px;
+     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+     border-radius: 20px;            
+ }
+ .card-header{
+     background: var(--card-header-color);            
+     margin: -20px;
+     padding: 20px;
+     border-radius: 20px 20px 0px 0px;
+ }
+
+ .card-header img{
+     width: 100%;
+ }
+ .card-body{
+     background: var(--card-body-color);
+     margin: -20px;
+     padding: 20px;
+     border-radius: 00px 00px 20px 20px;
+ }
+ .card-footer{
+     background: var(--card-footer-color);
+     margin: -20px;
+     padding: 20px;
+     border-radius: 00px 00px 20px 20px;
+     display: flex;
+     justify-content: space-between;
+ }
+ .card-footer a{
+     padding: 8px;
+     margin: 2px;
+     border-radius: 5px;
+     border: 1px solid white;
+     width: 100%;
+     text-align: center;
+     color: white;
+     text-decoration: none;
+ }
+ .card-footer a:hover{
+     color: var(--card-body-color);
+     background:rgb(0, 0, 0);
+ }
+/*------------------*/
+section form{
+    margin-left: 10rem;
+    justify-content: end;
+    size: large;
+    background-color: rgba(95, 5, 5, 0.295);
+    width: 100%;
+    height: 800px;
+    display: block;
+}
+

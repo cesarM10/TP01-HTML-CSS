@@ -1,0 +1,23 @@
+section fieldset{
+    position: relative;
+}
+legend {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  form {
+  position : relative;
+  width  : 300px;
+  height : 498px;
+  margin : 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
+  background : #FFF url(background.jpg);
+
+  /* creamos nuestra malla (grid) */
+  display  : grid;
+  grid-gap : 20px;
+  grid-template-columns : repeat(2, 1fr);
+  grid-template-rows    : 10em 1em 1em 1em;
+}
